@@ -1,4 +1,4 @@
-[>>>上一篇：关于前端](Web_Knowledge/lib/关于前端.md)
+[>>>上一篇：关于前端](../../lib/关于前端.md)
 
 ### 理解HTML
 ---
@@ -51,4 +51,4 @@ html中处处可见的尖括号<>，这被称为标签，绝大多数的标签�
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61
 
-[>>>下一篇：HTML标签、元素和属性](Web_Knowledge/lib/HTML/HTML标签、元素和属性.md)
+[>>>下一篇：HTML标签、元素和属性](../../lib/HTML/HTML标签、元素和属性.md)
