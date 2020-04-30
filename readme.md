@@ -5,7 +5,7 @@
     1. HTML
         1. [理解HTML](./lib/HTML/理解HTML.md)
         1. [HTML 标签、元素和属性](./lib/HTML/HTML标签、元素和属性.md)
-        1. [HTML 表格](./lib/HTML/HTML表格.md))
+        1. [HTML 表格](./lib/HTML/HTML表格.md)
         1. [HTML 区块]()
         1. [HTML 链接]()
         1. [HTML 按钮]()
