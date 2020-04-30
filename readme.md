@@ -56,6 +56,6 @@
         1. [SQL INSERT]()
         1. [SQL DDL]()
         1. [SQL DML]()
-1. [程序应用](./lib/project/关于程序1.md)
+1. [程序应用](./lib/project/关于程序.md)
     1. [功能分析]()  
     1. [任务拆分]()  
