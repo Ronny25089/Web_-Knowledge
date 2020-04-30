@@ -24,9 +24,9 @@
 [学习4个基本实例](https://www.runoob.com/html/html-basic.html)
 
 详细说明：
-- [HTML 标题](https://www.runoob.com/html/html-headings.html)
-- [HTML 段落](https://www.runoob.com/html/html-paragraphs.html)
-- [HTML 链接](https://www.runoob.com/html/html-links.html)
-- [HTML 图像](https://www.runoob.com/html/html-images.html)
+- [>>HTML 标题](https://www.runoob.com/html/html-headings.html)
+- [>>HTML 段落](https://www.runoob.com/html/html-paragraphs.html)
+- [>>HTML 链接](https://www.runoob.com/html/html-links.html)
+- [>>HTML 图像](https://www.runoob.com/html/html-images.html)
 
 [>>>下一篇：HTML表格](../../lib/HTML/HTML表格.md)

@@ -3,7 +3,7 @@
 ---
 &lt;talble&gt;标签属于常用标签。请先预读以下的文章，再回过头来 展开一些内容。
 
-[>>>HTML 表格](https://www.runoob.com/html/html-tables.html)
+[>>HTML 表格](https://www.runoob.com/html/html-tables.html)
 
 通过学习以上的内容，能了解到html的<table>标签可以用来书写出类似于excel的表格内容。
 <table>除了border属性还有一个重要的属性cellspacing（表单间隙），通过设置cell spacing属性，可以达到消除表单间隙。

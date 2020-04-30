@@ -21,17 +21,17 @@ HTML文档的打开方式可以通过双击，浏览器打开查看效果。
 
 html中处处可见的尖括号<>，这被称为标签，绝大多数的标签都是成对出现的：分为起始标签和结束标签，夹在两个标签中的内容被称为元素。HTML文本内容是由多个HTML标签组成的。
 
-[HTML标签列表](https://www.runoob.com/tags/html-reference.html)
-[HTML 实例](https://www.runoob.com/html/html-examples.html)
+[>>HTML标签列表](https://www.runoob.com/tags/html-reference.html)
+[>>HTML 实例](https://www.runoob.com/html/html-examples.html)
 
 
 #### 基本结构
 下面是组成一个HTML文本的基本结构。
 - html
- - head
-   - title:我的网页
- - body
-   - <内容/>
+    - head
+        - title:我的网页
+    - body
+        - <内容/>
 
 **<内容/>**里头书写我们所要构建的网页内容。
 通过学习HTML标签，可以自行组装**标签**和**元素**，构建出自己的网页。
