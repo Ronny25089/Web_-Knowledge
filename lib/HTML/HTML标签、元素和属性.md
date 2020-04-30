@@ -1,4 +1,4 @@
-[>>>上一篇：理解HTML](../lib/HTML/理解HTML.md)
+[>>>上一篇：理解HTML](../../lib/HTML/理解HTML.md)
 ### HTML标签、元素和属性
 ---
 #### 标签和元素
@@ -29,4 +29,4 @@
 - [HTML 链接](https://www.runoob.com/html/html-links.html)
 - [HTML 图像](https://www.runoob.com/html/html-images.html)
 
-[>>>下一篇：HTML表格](../lib/HTML/HTML 表格.md)
+[>>>下一篇：HTML表格](../../lib/HTML/HTML 表格.md)
