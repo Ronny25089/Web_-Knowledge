@@ -7,12 +7,14 @@ HTML是一种用于创建网页的标准标记语言。
 超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。
 您可以使用 HTML 来建立自己的 WEB 站点，HTML 运行在浏览器上，由浏览器来解析。
 
+[>>菜鸟_HTML教程](https://www.runoob.com/html/html-tutorial.html)
+
 #### HTML文档的后缀名
 - html
 - htm
 
-HTML文档的打开方式可以通过双击，浏览器打开查看效果。
-※程序当中的HTML文档，多是服务器通过[相对路径/绝对路径](https://www.jianshu.com/p/8baf85dc7d42)来调用（呼叫），默认主页一般设置为index.html。
+HTML文档的打开方式可以通过双击，浏览器打开查看效果。  
+※在上线的程序当中，HTML文档多是服务器通过[相对路径/绝对路径](https://www.jianshu.com/p/8baf85dc7d42)来调用（呼叫），默认打开主页一般设置为index.html。
 
 #### HTML标签书写格式
 - <标签名>...</标签名>
@@ -21,7 +23,7 @@ HTML文档的打开方式可以通过双击，浏览器打开查看效果。
 
 html中处处可见的尖括号<>，这被称为标签，绝大多数的标签都是成对出现的：分为起始标签和结束标签，夹在两个标签中的内容被称为元素。HTML文本内容是由多个HTML标签组成的。
 
-[>>HTML标签列表](https://www.runoob.com/tags/html-reference.html)
+[>>HTML 标签列表](https://www.runoob.com/tags/html-reference.html)  
 [>>HTML 实例](https://www.runoob.com/html/html-examples.html)
 
 
