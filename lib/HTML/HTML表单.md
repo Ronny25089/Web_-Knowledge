@@ -13,7 +13,7 @@
 `<form>`标签其目的是用来向web 服务器提交信息，实现前后端的交互目的。  
 下面这个新浪邮箱注册的页面中，注册信息都是通过`<form>`封装而成的。底部的`立即注册`按钮就是其`提交(submit)`按钮
 
-![图1](../../img/form01.png)
+<img src="../../img/form01.png" width="600"/>
 （图1）
 
 #### 将以上图片中的页面内容，简化成只有基础元属的代码：
@@ -37,7 +37,7 @@
 </form>
 ```
 #### 运行结果：
-><form method="POST" action="www.xxxxxx.com/register/regmail.php">
+<form method="POST" action="www.xxxxxx.com/register/regmail.php">
     邮箱地址：<input type="text" name="email">
     <select>
       <option value ="1">@sina.com</option>
@@ -88,8 +88,9 @@
 当表单提交的时候，数据会被封装到`Form data`里，往`action`声明的url地址传输数据。  
 关于`Form data`的封装结果，我们可以通过浏览器中的`开发者工具`查看其结果，可以参考下面这张图。  
 
-![图2](../../img/form02.png)
+<img src="../../img/form02.png" width="600"/>
 （图2）  
+
 这张图是新浪网官方注册邮箱时向服务端发送的数据，是将【图1】中的输入元素`<input type="输入类型" name="参数名" value="提交时的输入值">`一一封装到`Form data`中，传输给服务器统一处理。
 ```
 Form data : {
