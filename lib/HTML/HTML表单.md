@@ -37,23 +37,7 @@
 </form>
 ```
 #### 运行结果：
-<form method="POST" action="www.xxxxxx.com/register/regmail.php">
-    邮箱地址：<input type="text" name="email">
-    <select>
-      <option value ="1">@sina.com</option>
-    </select><br>
-    密　　码：<input type="passWord" name="pwd"><br>
-    确认密码：<input type="passWord" name="repwd"><br>
-    手机号码：<input type="text" name="phonenumber"><br>
-    图片验证码：<input type="text" name="imgvcode"><img alt ="[假装有验证码]" src="/"/><br>
-    <button type="button">免费获取短信验证码</button><br>
-    短信验证码：<input type="text" name="msgvcode"><br>
-    <p>
-        <input name="agreement" type="checkbox" id="agreement1" checked="">
-        <label for="agreement1">我已阅读并接受<a href="https://login.sina.com.cn/signupagreement.html" target="_blank">《新浪网络服务使用协议》</a>，<a href="https://passport.sinaimg.cn/html/sso/privacyclause.html" target="_blank">《新浪个人信息保护政策》</a>和<a href="https://login.sina.com.cn/signupagreement_freemail.html" target="_blank">《新浪免费邮箱服务条款》</a></label>
-    </p>
-    <input type="submit" value="立即注册"/>
-</form>
+<img src="../../img/form02.png" width="600"/>
 
 #### 解析：
 ```
@@ -88,7 +72,7 @@
 当表单提交的时候，数据会被封装到`Form data`里，往`action`声明的url地址传输数据。  
 关于`Form data`的封装结果，我们可以通过浏览器中的`开发者工具`查看其结果，可以参考下面这张图。  
 
-<img src="../../img/form02.png" width="600"/>
+<img src="../../img/form03.png" width="600"/>
 （图2）  
 
 这张图是新浪网官方注册邮箱时向服务端发送的数据，是将【图1】中的输入元素`<input type="输入类型" name="参数名" value="提交时的输入值">`一一封装到`Form data`中，传输给服务器统一处理。
