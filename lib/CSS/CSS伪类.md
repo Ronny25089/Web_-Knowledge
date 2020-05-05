@@ -57,11 +57,11 @@ CSS 伪类用于向某些选择器添加特殊的效果。获得指定状态下�
 ##### 常用的实例：
 - `<a/>`会有以下几种状态，就可以根据不同的状态，给`<a/>`添加以下CSS样式。
 >```
-a:link {color: #FF0000}     //未访问的链接
-a:visited {color: #00FF00}  //已访问的链接
-a:hover {color: #FF00FF}    //鼠标移动到链接上
-a:active {color: #0000FF}   //选定的链接
-```
+>a:link {color: #FF0000}     //未访问的链接
+>a:visited {color: #00FF00}  //已访问的链接
+>a:hover {color: #FF00FF}    //鼠标移动到链接上
+>a:active {color: #0000FF}   //选定的链接
+>```
 
 - `<button/>`
 >```
@@ -76,10 +76,10 @@ button:disabled {background: gray;} //被禁用的状态
 - `<input type="checkbox"/>`
 - `<input type="radio"/>`
 >```
-option:default {color: white}               //未访问的链接
-option:checked {color: red}                 //被勾选项目,option(select中的一项)
-input[type="checkbox"]checked {color: red}  //被勾选项目,checkbox中的一项
-input[type="radio"]:checked {color: red}    //被勾选项目,radio中的一项
-```
+>option:default {color: white}               //未访问的链接
+>option:checked {color: red}                 //被勾选项目,option(select中的一项)
+>input[type="checkbox"]checked {color: red}  //被勾选项目,checkbox中的一项
+>input[type="radio"]:checked {color: red}    //被勾选项目,radio中的一项
+>```
 
 [>>>上一篇：CSS 值与单位](../../lib/CSS/CSS值与单位.md)
