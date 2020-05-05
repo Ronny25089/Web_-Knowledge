@@ -65,16 +65,16 @@ CSS 伪类用于向某些选择器添加特殊的效果。获得指定状态下�
 
 - `<button/>`
 >```
-button {color: white;}              //普通状态
-button:hove {color: red;}           //鼠标停留状态
-button:active {color: blue;}        //active 点击状态
-button:focus {color: yellow;}       //focus 取得焦点状态(通过tab键)
-button:disabled {background: gray;} //被禁用的状态
-```
+>button {color: white;}              //普通状态
+>button:hove {color: red;}           //鼠标停留状态
+>button:active {color: blue;}        //active 点击状态
+>button:focus {color: yellow;}       //focus 取得焦点状态(通过tab键)
+>button:disabled {background: gray;} //被禁用的状态
+>```
 
-- `<option/>`
-- `<input type="checkbox"/>`
-- `<input type="radio"/>`
+- `<option/>`  
+- `<input type="checkbox"/>`  
+- `<input type="radio"/>`  
 >```
 >option:default {color: white}               //未访问的链接
 >option:checked {color: red}                 //被勾选项目,option(select中的一项)
