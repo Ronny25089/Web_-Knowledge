@@ -69,4 +69,4 @@ padding和margin 同理，但表示元素在边框和内容区之间的距离。
 
 padding和margin一样可以设置一到四个值，规则同理。
 
-[>>>下一篇：CSS 轮廓](../../lib/CSS/CSS轮廓.md)
+[>>>下一篇：CSS 定位](../../lib/CSS/CSS定位.md)
