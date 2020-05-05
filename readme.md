@@ -20,7 +20,6 @@
         1. [CSS 问题分析思路](./lib/CSS/CSS问题分析思路.md)
     1. javaCript
         1. [了解 js](./lib/JavaScript/了解js.md)
-        1. [js 基础说明](./lib/JavaScript/js基础说明.md)
         1. [js DOM对象](./lib/JavaScript/jsDOM对象.md)
         1. [js DOM事件](./lib/JavaScript/jsDOM事件.md)
         1. [js DOM监听器](./lib/JavaScript/jsDOM监听器.md)

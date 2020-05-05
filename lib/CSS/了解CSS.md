@@ -7,11 +7,31 @@
 
 [>>菜鸟_CSS教程](https://www.runoob.com/css/css-tutorial.html)
 
+如果你打开一个没有用任何CSS来改变页面布局的网页，那么网页元素就会排列在一个正常流（normal flow）之中。在正常流中，元素盒子（boxes）会基于文档的写作模式（writing mode）一个接一个地排列。这就意味着，如果你的写作模式是水平方向的（句子是从左到右或从右到左书写），正常流会垂直地一个接一个排列页面的块级元素。  
+<img src="../../img/css01.png" width="400"/>
+
+#### 书写CSS
+css内容也可以写在html文本中,通过`<style>`标签或者`style`属性来实现。
+```
+<style type="text/css">
+h1 {color:red;}
+</style>
+<h1>这是一个标题</h1>
+```
+或者
+```
+<h1 style="color:red;">这是一个标题</h1>
+```
+- 优点：直接，简单
+- 缺点：不方便复用和维护,不符合结构行为分离规范
+
+为了规范书写css内容文本，我们更多地是利用XXX.css文档。让**html文件** 和**css文件**产生关联,通过 `link` 标签的 `href` 属性 链接到css文件。
+```
+<link rel="stylesheet" href="XXX.css">
+```
+
 #### CSS文档的后缀名
 - .css
-
-如果你打开一个没有用任何CSS来改变页面布局的网页，那么网页元素就会排列在一个正常流（normal flow）之中。在正常流中，元素盒子（boxes）会基于文档的写作模式（writing mode）一个接一个地排列。这就意味着，如果你的写作模式是水平方向的（句子是从左到右或从右到左书写），正常流会垂直地一个接一个排列页面的块级元素。  
-<img src="../../img/css01.png" width="300"/>
 
 #### CSS书写格式
 ```

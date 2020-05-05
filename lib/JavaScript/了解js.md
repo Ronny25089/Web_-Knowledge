@@ -2,37 +2,75 @@
 
 ## 了解js
 ---
+JavaScript 是 Web 的编程语言。
+所有现代的 HTML 页面都使用 JavaScript。
 
-层叠样式表 — 也就是CSS — 是你在HTML之后应该学习的第二门技术。HTML用于定义内容的结构和语义，CSS用于设计风格和布局。比如，您可以使用CSS来更改内容的字体、颜色、大小、间距，将内容分为多列，或者添加动画及其他的装饰效果。
+具体的JS语法等方面的问题，请详细查看[>>菜鸟_JS教程](https://www.runoob.com/js/js-tutorial.html)，接下来介绍JavaScript 如何与 HTML 和 CSS 一起工作。
 
-[>>菜鸟_CSS教程](https://www.runoob.com/css/css-tutorial.html)
+之前通过【[>>关于前端](../../关于前端.md)】这一章节的了解，可以得知在WEB前端中，js是可以通过代码的编写，来控制html和css的，而达到一种动态的效果的。
 
-#### CSS文档的后缀名
-- .css
+#### 书写JS
+- **内嵌HTML中**  
+  JS内容也可以写在html文本中,通过`<script>`标签来实现。  
+  ```
+    //可以通过底部的在线工具，尝试一下下面的实例：
+    <script>
+    function displayDate(){
+    	document.getElementById("demo").innerHTML=Date();
+    }
+    </script>
+    <h1 onclick="displayDate()">显示日期</h1>
+    今天是：<span id="demo">几年几月几日</span>
+  ```  
+  <img src="../../img/js_tutorial01.GIF" width="350" border="1px"/>  
 
-如果你打开一个没有用任何CSS来改变页面布局的网页，那么网页元素就会排列在一个正常流（normal flow）之中。在正常流中，元素盒子（boxes）会基于文档的写作模式（writing mode）一个接一个地排列。这就意味着，如果你的写作模式是水平方向的（句子是从左到右或从右到左书写），正常流会垂直地一个接一个排列页面的块级元素。  
-<img src="../../img/css01.png" width="300"/>
+  - 优点：直接，简单  
+  - 缺点：不方便复用和维护,不符合结构行为分离规范  
 
-#### CSS书写格式
-```
-  选择器: {
-    属性1:值 单位;
-    属性2:值 单位;
-    ...
+- **独立js文件**  
+    为了规范书写JS内容文本，我们更多地是利用XXX.js文档。让**html文件** 和**js文件**产生关联,通过`<script>`标签的 `src` 属性 链接到js文件。
+    ```
+    <script src="XXX.js"></script>
+    ```
+    和css文件一样，要做到分离。只通过关联标签，将三方联系在一起。这样书写的html，css，js可以达到解耦的状态。使彼此之间的联系没有那么紧密，更不容易因为一方的维护而影响其他的区域。同时也能达到统一修改css样式和js行为的目的，便于维护。  
+    - 优点：
+      1. 结构 行为 完全分离
+      1. 方便修改维护
+      1. 可复用性强   
+    - 缺点：
+      1. 太优秀了
+
+#### 书写格式  
+  依据js语法
+  ```
+  var 变量名 = 值;
+  例：
+  //声明一个数值类型
+  var num = 1;
+  //声明一个字符串
+  var str = "字符串";
+  //声明一个boolean
+  var flag = true;
+  //声明一个数组
+  var arr = [1,2,3,4];
+  //声明一个object
+  var obj = {
+    id = 00001,
+    userCd = "test001",
+    userName = "testUser",
+    pwd = "1234567"
   }
-```
-><img src="../../img/css02.png" width="450"/>  
+  //声明一个函数，但此函数只有在var语句声明之后才能被调用
+  var XXX = funtion () {
+    //TODO...
+  };
 
-#### 组成要素
-- 选择器通常是您需要改变样式的 HTML 元素。  
-- 每条声明由一个属性和一个值组成。  
-- 属性（property）是您希望设置的样式属性（style attribute）。每个属性有一个值。属性和值被冒号分开。  
-
-[>>>简单的实例](https://www.runoob.com/try/demo_source/demo_default.htm)  
-可以点开这个【简单的实例】，查看不同的CSS样式作用下，同一个画面不同的变化。
-
-[>>CSS 属性列表](https://www.runoob.com/cssref/css-reference.html)  
-[>>CSS 实例](https://www.runoob.com/css/css-examples.html)
+  //function声明方式,函数可以在function声明之前被调用
+  function XXX() {
+    //TODO...
+  };
+  ```
+  即js中万物皆是对象，连函数都不放过。因为函数也是对象，所以在JS中函数也可以被当作参数用来传递。
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61
 
