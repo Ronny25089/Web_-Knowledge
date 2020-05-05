@@ -41,36 +41,41 @@ JavaScript 是 Web 的编程语言。
       1. 太优秀了
 
 #### 书写格式  
-  依据js语法
-  ```
-  var 变量名 = 值;
-  例：
-  //声明一个数值类型
-  var num = 1;
-  //声明一个字符串
-  var str = "字符串";
-  //声明一个boolean
-  var flag = true;
-  //声明一个数组
-  var arr = [1,2,3,4];
-  //声明一个object
-  var obj = {
-    id = 00001,
-    userCd = "test001",
-    userName = "testUser",
-    pwd = "1234567"
-  }
-  //声明一个函数，但此函数只有在var语句声明之后才能被调用
-  var XXX = funtion () {
-    //TODO...
-  };
+  依据js语法，如下：  
+  - 声明变量
+  - 声明函数
+  - 书写函数内容
+  - etc...
 
-  //function声明方式,函数可以在function声明之前被调用
-  function XXX() {
-    //TODO...
-  };
-  ```
-  即js中万物皆是对象，连函数都不放过。因为函数也是对象，所以在JS中函数也可以被当作参数用来传递。
+```
+var 变量名 = 值;
+例：
+//声明一个数值类型
+var num = 1;
+//声明一个字符串
+var str = "字符串";
+//声明一个boolean
+var flag = true;
+//声明一个数组
+var arr = [1,2,3,4];
+//声明一个object
+var obj = {
+  id = 00001,
+  userCd = "test001",
+  userName = "testUser",
+  pwd = "1234567"
+}
+//声明一个函数，但此函数只有在var语句声明之后才能被调用
+var XXX = funtion () {
+  //TODO...
+};
+
+//function声明方式,函数可以在function声明之前被调用
+function XXX() {
+  //TODO...
+};
+```
+  即js中万物皆是对象，连函数都不放过。因为函数也是对象，所以在JS中函数也可以被当作参数用来传递使用。
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61
 
