@@ -76,4 +76,4 @@ blockquote[class=quote][cite] { color:#f00; }
 还不是最全的，具体可以参考以下的文章。  
 [>>阮一峰的网络日志・CSS选择器笔记](http://www.ruanyifeng.com/blog/2009/03/css_selectors.html)
 
-[>>>下一篇：CSS 颜色](../../lib/CSS/CSS颜色.md)
+[>>>下一篇：CSS 伪类](../../lib/CSS/CSS伪类.md)

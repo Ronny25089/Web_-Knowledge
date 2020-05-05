@@ -31,11 +31,8 @@
 [>>>简单的实例](https://www.runoob.com/try/demo_source/demo_default.htm)  
 可以点开这个【简单的实例】，查看不同的CSS样式作用下，同一个画面不同的变化。
 
-
 [>>CSS 属性列表](https://www.runoob.com/cssref/css-reference.html)  
 [>>CSS 实例](https://www.runoob.com/css/css-examples.html)
-
-
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61
 

@@ -12,10 +12,11 @@
     1. CSS
         1. [理解 CSS](./lib/CSS/理解CSS.md)
         1. [CSS 选择器](./lib/CSS/CSS选择器.md)
+        1. [CSS 伪类](./lib/CSS/CSS伪类.md)
+        1. [CSS 值与单位](./lib/CSS/CSS值与单位.md)
         1. [CSS 颜色](./lib/CSS/CSS颜色.md)
         1. [CSS 内外边距](./lib/CSS/CSS内外边距.md)
-        1. [CSS 轮廓](./lib/CSS/CSS轮廓.md)
-        1. [CSS 位置](./lib/CSS/CSS位置.md)
+        1. [CSS 定位](./lib/CSS/CSS定位.md)
         1. [CSS 问题分析思路](./lib/CSS/CSS问题分析思路.md)
     1. javaCript
         1. [理解 js]()
