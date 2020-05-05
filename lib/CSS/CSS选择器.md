@@ -1,6 +1,6 @@
-[>>>上一篇：理解 CSS](../../lib/CSS/理解CSS.md)
+[>>>上一篇：了解 CSS](../../lib/CSS/了解CSS.md)
 
-### CSS选择器
+## CSS选择器
 ---
 CSS选择器用于选择你想要的元素的样式的模式。  
 [>>CSS选择器](https://www.runoob.com/cssref/css-selectors.html)

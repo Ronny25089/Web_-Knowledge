@@ -1,5 +1,5 @@
 [>>>上一篇：HTML标签、元素和属性](../../lib/HTML/HTML标签、元素和属性.md)
-### HTML表格
+## HTML表格
 ---
 `<table>`标签属于常用标签。请先预读以下链接中的文章，再回过头来 展开一些内容。  
 [>>HTML 表格](https://www.runoob.com/html/html-tables.html)
