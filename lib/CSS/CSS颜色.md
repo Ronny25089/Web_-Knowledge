@@ -71,4 +71,4 @@ box-shadow: x轴偏移值 y轴偏移值 阴影的模糊度 以及阴影颜色;
 ```   
 -moz-box-shadow、-webkit-box-shadow和box-shadow的设置是一样的，只是分别对应不同的浏览器。都有4个参数，含义分别为：x轴偏移值、y轴偏移值、阴影的模糊度、以及阴影颜色。  
 
-[>>>上一篇：CSS 内外边距](../../lib/CSS/CSS内外边距.md)
+[>>>下一篇：CSS 内外边距](../../lib/CSS/CSS内外边距.md)
