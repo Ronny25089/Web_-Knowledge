@@ -56,30 +56,30 @@ CSS 伪类用于向某些选择器添加特殊的效果。获得指定状态下�
 一些具有功能性的标签，比如：`<a/>`，`<button/>`，`<option/>`，`<input type="checkbox"/>`，`<input type="radio"/>`等,他们都可能具有不同的状态。通过伪类，我们给同一个标签，在不同的状态下显示不同的样式。
 ##### 常用的实例：
 - `<a/>`会有以下几种状态，就可以根据不同的状态，给`<a/>`添加以下CSS样式。
->```
->a:link {color: #FF0000}     //未访问的链接
->a:visited {color: #00FF00}  //已访问的链接
->a:hover {color: #FF00FF}    //鼠标移动到链接上
->a:active {color: #0000FF}   //选定的链接
->```
+  >```
+  >a:link {color: #FF0000}     //未访问的链接
+  >a:visited {color: #00FF00}  //已访问的链接
+  >a:hover {color: #FF00FF}    //鼠标移动到链接上
+  >a:active {color: #0000FF}   //选定的链接
+  >```
 
 - `<button/>`
->```
->button {color: white;}              //普通状态
->button:hove {color: red;}           //鼠标停留状态
->button:active {color: blue;}        //active 点击状态
->button:focus {color: yellow;}       //focus 取得焦点状态(通过tab键)
->button:disabled {background: gray;} //被禁用的状态
->```
+  >```
+  >button {color: white;}              //普通状态
+  >button:hove {color: red;}           //鼠标停留状态
+  >button:active {color: blue;}        //active 点击状态
+  >button:focus {color: yellow;}       //focus 取得焦点状态(通过tab键)
+  >button:disabled {background: gray;} //被禁用的状态
+  >```
 
 - `<option/>`  
 - `<input type="checkbox"/>`  
 - `<input type="radio"/>`  
->```
->option:default {color: white}               //未访问的链接
->option:checked {color: red}                 //被勾选项目,option(select中的一项)
->input[type="checkbox"]checked {color: red}  //被勾选项目,checkbox中的一项
->input[type="radio"]:checked {color: red}    //被勾选项目,radio中的一项
->```
+  >```
+  >option:default {color: white}               //未访问的链接
+  >option:checked {color: red}                 //被勾选项目,option(select中的一项)
+  >input[type="checkbox"]checked {color: red}  //被勾选项目,checkbox中的一项
+  >input[type="radio"]:checked {color: red}    //被勾选项目,radio中的一项
+  >```
 
 [>>>上一篇：CSS 值与单位](../../lib/CSS/CSS值与单位.md)
