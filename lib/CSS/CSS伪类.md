@@ -82,4 +82,4 @@ CSS 伪类用于向某些选择器添加特殊的效果。获得指定状态下�
   >input[type="radio"]:checked {color: red}    //被勾选项目,radio中的一项
   >```
 
-[>>>上一篇：CSS 值与单位](../../lib/CSS/CSS值与单位.md)
+[>>>下一篇：CSS 值与单位](../../lib/CSS/CSS值与单位.md)
