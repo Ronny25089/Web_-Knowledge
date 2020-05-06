@@ -80,4 +80,4 @@ function XXX() {
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61
 
-[>>>下一篇：jsDOM对象](../../lib/JavaScript/jsDOM对象.md)
+[>>>下一篇：js变量和函数](../../lib/JavaScript/js变量和函数.md)

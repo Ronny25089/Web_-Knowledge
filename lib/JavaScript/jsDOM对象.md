@@ -1,4 +1,4 @@
-[>>>上一篇：了解 js](../../lib/JavaScript/了解js.md)
+[>>>上一篇：js变量和函数](../../lib/JavaScript/js变量和函数.md)
 
 ## jsDOM对象
 ---
@@ -111,7 +111,8 @@ DOM 将 HTML 表示为标签的树形结构。它看起来如下所示：
 
 ### 修改DOM 对象的属性
 通常我们获取到 目标对象后，会对该目标进行文本，属性做修改。  
-**比如：**将以上获取到的对象的背景色进行一个修改的话。
+**比如：**将以上获取到的对象的背景色进行一个修改的话。  
+运行以下简单的代码：
 - **getElementById**
     ```
     document.getElementById("text2").style.background = 'red';
