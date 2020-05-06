@@ -8,7 +8,7 @@
 `<table>`除了border属性还有一个重要的属性cellspacing（表单间隙），通过设置cell spacing属性，可以达到**消除/增大**表单间隙。
 其次，表单中的内容不止局限于文本内容（TEXT），还可以往里添加标签元素。
 
-#### 内容嵌套
+### 内容嵌套
 往表单`cell`中添加链接标签`<a/>`和图像标题`<img/>`
 ```
 <table border="1" cellspacing="0">

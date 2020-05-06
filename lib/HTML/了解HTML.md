@@ -9,14 +9,14 @@ HTML是一种用于创建网页的标准标记语言。
 
 [>>菜鸟_HTML教程](https://www.runoob.com/html/html-tutorial.html)
 
-#### HTML文档的后缀名
+### HTML文档的后缀名
 - html
 - htm
 
 HTML文档的打开方式可以通过双击，浏览器打开查看效果。  
 ※在上线的程序当中，HTML文档多是服务器通过[相对路径/绝对路径](https://www.jianshu.com/p/8baf85dc7d42)来调用（呼叫），默认打开主页一般设置为index.html。
 
-#### HTML标签书写格式
+### HTML标签书写格式
 - <标签名>...</标签名>
 - &lt;html&gt;...&lt;/html&gt;
 - &lt;a/&gt;
@@ -27,7 +27,7 @@ html中处处可见的尖括号<>，这被称为标签，绝大多数的标签�
 [>>HTML 实例](https://www.runoob.com/html/html-examples.html)
 
 
-#### 基本结构
+### 基本结构
 下面是组成一个HTML文本的基本结构。
 - html
     - head

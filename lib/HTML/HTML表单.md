@@ -16,7 +16,7 @@
 <img src="../../img/form01.png" width="600"/>
 （图1）
 
-#### 将以上图片中的页面内容，简化成只有基础元属的代码：
+### 将以上图片中的页面内容，简化成只有基础元属的代码：
 ```
 <form method="POST" action="www.xxxxxx.com/register/regmail.php">
     邮箱地址：<input type="text" name="email">
@@ -36,10 +36,10 @@
     <input type="submit" value="立即注册"/>
 </form>
 ```
-#### 运行结果：
+### 运行结果：
 <img src="../../img/form02.png" width="600"/>
 
-#### 解析：
+### 解析：
 ```
 <form method="POST" action="www.xxxxxx.com/register/regmail.php">
 <form method="传送方式" action="服务器文件">

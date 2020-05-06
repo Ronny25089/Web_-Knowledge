@@ -215,11 +215,11 @@ position属性用来指定一个元素在网页上的位置，一共有5种定�
 
     因为设定的阈值是 top:10px ，这个值表示当元素距离页面视口（Viewport，也就是fixed定位的参照）顶部距离大于 10px 时，元素以 relative 定位表现，而当元素距离页面视口小于 10px 时，元素表现为 fixed 定位，也就会固定在顶部。
 
-    不理解可以再看看下面这两张示意图（top:20px 的情况，取自开源项目fixed-sticky）：
-    **距离页面顶部大于20px，表现为 `position:relative`;**  
+    不理解可以再看看下面这两张示意图（top:20px 的情况，取自开源项目fixed-sticky）：  
+    **距离页面顶部大于20px，表现为 `position:relative;`**  
     <img src="../../img/position07.GIF" width="350" border="1px"/>  
 
-    **距离页面顶部小于20px，表现为 `position:fixed`;**  
+    **距离页面顶部小于20px，表现为 `position:fixed;`**  
     <img src="../../img/position08.GIF" width="350" border="1px"/>  
 
 >※z-index是层级属性。  
@@ -233,7 +233,7 @@ h2 {
 }
 ```
 当元素之间重叠的时候， z-index 较大的元素会覆盖较小的元素在上层进行显示。  
-即：当h1和h2重叠的时候，h2会将h1覆盖。
+即：当h1和h2发生重叠时，h2会将h1覆盖。
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61
 

@@ -10,7 +10,7 @@
 如果你打开一个没有用任何CSS来改变页面布局的网页，那么网页元素就会排列在一个正常流（normal flow）之中。在正常流中，元素盒子（boxes）会基于文档的写作模式（writing mode）一个接一个地排列。这就意味着，如果你的写作模式是水平方向的（句子是从左到右或从右到左书写），正常流会垂直地一个接一个排列页面的块级元素。  
 <img src="../../img/css01.png" width="400"/>
 
-#### 书写CSS
+### 书写CSS
 css内容也可以写在html文本中,通过`<style>`标签或者`style`属性来实现。
 ```
 <style type="text/css">
@@ -30,10 +30,10 @@ h1 {color:red;}
 <link rel="stylesheet" href="XXX.css">
 ```
 
-#### CSS文档的后缀名
+### CSS文档的后缀名
 - .css
 
-#### CSS书写格式
+### CSS书写格式
 ```
   选择器: {
     属性1:值 单位;
@@ -43,7 +43,7 @@ h1 {color:red;}
 ```
 ><img src="../../img/css02.png" width="450"/>  
 
-#### 组成要素
+### 组成要素
 - 选择器通常是您需要改变样式的 HTML 元素。  
 - 每条声明由一个属性和一个值组成。  
 - 属性（property）是您希望设置的样式属性（style attribute）。每个属性有一个值。属性和值被冒号分开。  
