@@ -67,6 +67,7 @@ document.getElementById("btn").addEventListener("click", function(){
 
 <img src="../../img/event01.GIF" width="300" border="1px"/>   
 
+下一篇会详细说明匿名函数的运用。
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61
 
