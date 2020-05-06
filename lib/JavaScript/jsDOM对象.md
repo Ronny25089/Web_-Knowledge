@@ -12,7 +12,7 @@ HTML 文档的主干是标签（tag）。
 HTML DOM 模型被构造为对象的树：
 
 ### 一个HTML DOM 树例子：
-<img src="../../img/pic_htmltree.gif" width="550" border="1px"/>   
+<img src="../../img/pic_htmltree.gif" width="650" border="1px"/>   
 
 JavaScript通过取得DOM对象，编辑该对象，来达到动态修改HTML文本内容的效果。  
 - JavaScript 能够改变页面中的所有 HTML 元素
@@ -116,7 +116,7 @@ DOM 将 HTML 表示为标签的树形结构。它看起来如下所示：
     ```
     document.getElementById("text2").style.background = 'red';
     ```
-    <img src="../../img/dom02.png" width="550" border="1px"/>   
+    <img src="../../img/dom02.png" width="650" border="1px"/>   
 - **getElementsByTagName**  
     ```
     //因为返回值是数组
@@ -127,12 +127,12 @@ DOM 将 HTML 表示为标签的树形结构。它看起来如下所示：
       arr[i].style.background = 'red';
     }
     ```
-    <img src="../../img/dom03.png" width="550" border="1px"/>   
+    <img src="../../img/dom03.png" width="650" border="1px"/>   
 - **getElementsByClassName**  
-    同**getElementsByTagName**
+    同上
 
 - **getElementsByName**  
-    同**getElementsByTagName**
+    同上
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61
 

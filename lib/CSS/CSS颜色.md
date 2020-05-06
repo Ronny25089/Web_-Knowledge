@@ -69,6 +69,33 @@ box-shadow: x轴偏移值 y轴偏移值 阴影的模糊度 以及阴影颜色;
 
 　　box-shadow: 3px 3px 4px #ffffff; /* Opera 10.5, IE 9.0 */
 ```   
--moz-box-shadow、-webkit-box-shadow和box-shadow的设置是一样的，只是分别对应不同的浏览器。都有4个参数，含义分别为：x轴偏移值、y轴偏移值、阴影的模糊度、以及阴影颜色。  
+<img src="../../img/color02.png" width="250"/>  
+
+**-moz-box-shadow**、**-webkit-box-shadow**和**box-shadow**的设置是一样的，只是分别对应不同的浏览器。  
+都有4个参数，含义分别为：x轴偏移值、y轴偏移值、阴影的模糊度、以及阴影颜色。  
+
+#### 滤镜
+修改所有图片的颜色为黑白 (100% 灰度):
+```
+img {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+```
+
+大家可以看到全站的内容都变成灰色了，包括按钮、图片等等。  
+有人会以为所有的内容都统一换了一个 CSS 样式，图片也全换成灰色的了，按钮等样式也统一换成了灰色样式。但你想想这个成本也太高了。  
+
+<img src="../../img/color03.png" width="700"/>  
+
+其实，解决方案很简单，只需要几行代码就能搞定了。  
+```
+html.gray {
+    -webkit-filter: grayscale(.95);
+}
+```
+因此我们可以确定，通过一个全局的 CSS 样式就能将整个网站变成灰色效果。
+
+
 
 [>>>下一篇：CSS 内外边距](../../lib/CSS/CSS内外边距.md)

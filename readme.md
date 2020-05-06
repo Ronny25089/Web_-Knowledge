@@ -23,11 +23,10 @@
         1. [js DOM对象](./lib/JavaScript/jsDOM对象.md)
         1. [js DOM事件](./lib/JavaScript/jsDOM事件.md)
         1. [js DOM监听器](./lib/JavaScript/jsDOM监听器.md)
-        1. [js DOM事件](./lib/JavaScript/jsDOM事件.md)
         1. [js 函数](./lib/JavaScript/js函数.md)
         1. [js 回调函数](./lib/JavaScript/js回调函数.md)
         1. js 闭包※略
-        1. [jQuery 了解](./lib/JavaScript/jQuery了解.md)
+        1. [了解 jQuery](./lib/JavaScript/了解 jQuery.md)
         1. [jQuery 基础说明](./lib/JavaScript/jQuery基础说明.md)
         1. [jQuery 选择器](./lib/JavaScript/jQuery选择器.md)
         1. [jQuery 特性](./lib/JavaScript/jQuery特性.md)
