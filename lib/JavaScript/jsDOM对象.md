@@ -11,7 +11,7 @@ HTML 文档的主干是标签（tag）。
 
 HTML DOM 模型被构造为对象的树：
 
-#### 一个HTML DOM 树例子：
+### 一个HTML DOM 树例子：
 <img src="../../img/pic_htmltree.gif" width="550" border="1px"/>   
 
 JavaScript通过取得DOM对象，编辑该对象，来达到动态修改HTML文本内容的效果。  
@@ -31,7 +31,7 @@ document.body.style.background = 'red'; // 将背景设置为红色
 - offsetWidth — 节点宽度（以像素度量）
 - etc...
 
-#### DOM 的例子
+### DOM 的例子
 让我们从下面这个简单的文档（document）开始：
 ```
 <!DOCTYPE HTML>
@@ -45,7 +45,7 @@ document.body.style.background = 'red'; // 将背景设置为红色
 </html>
 ```
 
-DOM 将 HTML 表示为标签的树形结构。它看起来如下所示：
+DOM 将 HTML 表示为标签的树形结构。它看起来如下所示：  
 <img src="../../img/dom01.png" width="350" border="1px"/>  
 
 每个树的节点都是一个对象。  
@@ -57,7 +57,7 @@ DOM 将 HTML 表示为标签的树形结构。它看起来如下所示：
 - 换行符：↵（在 JavaScript 中为 \n）
 - 空格：␣
 
-#### 实例
+### 实例
 下面这个例子，介绍几种常用方法。会通过各种方法来获取不同目标的DOM对象
 ```
 <!DOCTYPE HTML>
@@ -76,7 +76,7 @@ DOM 将 HTML 表示为标签的树形结构。它看起来如下所示：
 ```
 - **getElementById**  
     getElementById() 方法可返回对拥有指定 ID 的第一个对象的引用。  
-    `document.getElementById("text02")`能获取到以下内容，(规范文本中id是唯一的)返回结果唯一：
+    `document.getElementById("text2")`能获取到以下内容，(规范文本中id是唯一的)返回结果唯一：
     ```
     <div id="text2">文本2</div>
     ```
@@ -109,14 +109,14 @@ DOM 将 HTML 表示为标签的树形结构。它看起来如下所示：
     <div name="text4">文本5</div>
     ```
 
-#### 修改DOM 对象的属性
+### 修改DOM 对象的属性
 通常我们获取到 目标对象后，会对该目标进行文本，属性做修改。  
 **比如：**将以上获取到的对象的背景色进行一个修改的话。
 - **getElementById**
     ```
-    document.getElementById("text02").style.background = 'red';
+    document.getElementById("text2").style.background = 'red';
     ```
-    
+    <img src="../../img/dom02.png" width="550" border="1px"/>   
 - **getElementsByTagName**  
     ```
     //因为返回值是数组
@@ -127,7 +127,7 @@ DOM 将 HTML 表示为标签的树形结构。它看起来如下所示：
       arr[i].style.background = 'red';
     }
     ```
-
+    <img src="../../img/dom03.png" width="550" border="1px"/>   
 - **getElementsByClassName**  
     同**getElementsByTagName**
 

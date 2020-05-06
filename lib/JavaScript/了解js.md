@@ -24,6 +24,7 @@ js由浏览器负责解释执行，js的使用可以减轻服务器的压力，�
     <h1 onclick="displayDate()">显示日期</h1>
     今天是：<span id="demo">几年几月几日</span>
   ```  
+  通过点击`显示日期`能显示当前日期
   <img src="../../img/js_tutorial01.GIF" width="350" border="1px"/>  
 
   - 优点：直接，简单  
