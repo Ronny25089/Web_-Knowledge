@@ -37,6 +37,7 @@ add(1, 2, print);		//=>3
 
 
 ### "回调地狱"
+可以挑战以下
 ```
 var p_client = new Db('integration_tests_20', new Server("127.0.0.1", 27017, {}), {'pk':CustomPKFactory});
    p_client.open(function(err, p_client) {
