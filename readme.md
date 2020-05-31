@@ -28,7 +28,7 @@
         1. [js 回调函数](./lib/JavaScript/js回调函数.md)
         1. [了解 jQuery](./lib/JavaScript/了解jQuery.md)
         1. [jQuery 选择器](./lib/JavaScript/jQuery选择器.md)
-        1. [jQuery AJAX](./lib/JavaScript/jQueryAJAX.md)
+        1. [jQuery 异步请求AJAX](./lib/JavaScript/jQuery异步请求AJAX.md)
         1. [jQuery 特性](./lib/JavaScript/jQuery特性.md)
         1. [WEB端数据存储方式](./lib/JavaScript/WEB端数据存储方式.md)
 1. [关于后端]()

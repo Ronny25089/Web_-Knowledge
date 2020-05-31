@@ -31,7 +31,11 @@ $ === jQuery; // true
 typeof($); // 'function'
 ```
 
+### jQuery的选择器
+选择器是jQuery的核心。一个选择器写出来类似`$('#id')`  
+很多时候使用jQuery，也是因为其选择器的便利性。在下一章节会详细讲解jQuery选择器的运用。
 
+[>>jQuery官方API文档](https://api.jquery.com/)
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61
 

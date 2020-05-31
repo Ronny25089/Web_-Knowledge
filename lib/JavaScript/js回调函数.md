@@ -37,7 +37,8 @@ add(1, 2, print);		//=>3
 
 
 ### "回调地狱"
-可以挑战以下
+回调函数真的是一个让人又爱又恨的东西。一方面，它让Javascript能够非常简洁地实现异步函数；一方面，它又让你的代码难以去理解和维护。  
+下面是一个有意思的例子，可以了解一下。
 ```
 var p_client = new Db('integration_tests_20', new Server("127.0.0.1", 27017, {}), {'pk':CustomPKFactory});
    p_client.open(function(err, p_client) {
