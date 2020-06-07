@@ -21,17 +21,18 @@
 概括起来，就是一句话，ajax通过原生的**XMLHttpRequest对象**发出HTTP请求，得到服务器返回的数据后，再进行处理  
 
 >**XMLHttpRequest对象**  
-打开浏览器，按下F12(或者MAC的option＋command＋i)  
-[Network]→[XHR]  
-如下图，在[XHR]的标签底下，你可以看到所有该页面发送出去的AJAX请求，即XHR对象的内容。内容大致如下：  
-- General（概要信息）
-- Response Hearders（响应头）
-- Request Hearders（请求头）
-- Request Payload（请求体/POST请求的情况）
-- Query String Parameters（参数/GET请求的情况）
-**※关于这些信息的说明，详情参考《API接口》章节。**
-
-<img src="../../img/ajax04.png" width="650" border="1px"/>   
+>打开浏览器，按下F12(或者MAC的option＋command＋i)  
+>[Network]→[XHR]  
+>如下图，在[XHR]的标签底下，你可以看到所有该页面发送出去的AJAX请求，即XHR对象的内容。内容大致如下：  
+>- General（概要信息）
+>- Response Hearders（响应头）
+>- Request Hearders（请求头）
+>- Request Payload（请求体/POST请求的情况）
+>- Query String Parameters（参数/GET请求的情况）
+>
+>  **※这些关于（requesr和response）信息的说明，详情参考《API接口》章节。**
+>
+><img src="../../img/ajax04.png" width="650" border="1px"/>   
 
 **AJAX**是与服务器交换数据的技术之一，它在不重载全部页面的情况下，实现了对部分网页的更新。
 
