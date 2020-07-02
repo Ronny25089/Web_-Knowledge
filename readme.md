@@ -33,7 +33,7 @@
         1. [WEB端数据存储方式](./lib/JavaScript/WEB端数据存储方式.md)
 1. [关于后端]()
     1. [api接口]()
-        1. [restful通信]()
+        1. [restful通信](https://zhangslob.github.io/docs/network/HTTP/)
         1. soap通信※略
         1. socket通信※略
         1. webservice通信※略
