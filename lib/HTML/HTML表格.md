@@ -130,7 +130,7 @@ td:first-child, th:first-child {
   xxRwNbE</a> by memo (<a href="https://codepen.io/ronny25089">@ronny25089</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61  
 [>>>下一篇：HTML区块](../../lib/HTML/HTML区块.md)
