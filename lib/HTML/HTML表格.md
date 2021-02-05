@@ -38,5 +38,99 @@
     </tr>
 </table>
 
+### 带表头的HTML写法
+```
+<div>
+<table >
+  <thead>
+    <tr>
+      <th>head1</th>
+      <th>head2</th>
+      <th>head3</th>
+      <th>head4</th>
+      <th>head5</th>
+      <th>head6</th>
+      <th>head7</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="row">
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+```
+
+运行结果： 
+<div>
+<table >
+  <thead>
+    <tr>
+      <th>head1</th>
+      <th>head2</th>
+      <th>head3</th>
+      <th>head4</th>
+      <th>head5</th>
+      <th>head6</th>
+      <th>head7</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="row">
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+同时若想固定表头，或者某一列的时候，需要用到CSS定位元素`position: sticky;`将指定的标签固定在一个相对位置，   
+表述位置的时候需要用`top: 0;`意思为 固定在相对于父类标签内边的顶部0位置  
+`left: 0;`意思为 固定在相对于父类标签内边的左边0位置  
+
+
+```
+/* 固定第一行 */
+thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  /* 相对位置 */
+  top: 0;
+  /* 将表头提高到1层 */
+  z-index: 1;
+  background-color: #8ebfd2;
+}
+
+/* 固定第一列 */
+td:first-child, th:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  /* 相对位置 */
+  left: 0;
+  background-color: #fbe375;
+}
+```
+
+运行实例：
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="ronny25089" data-slug-hash="xxRwNbE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="xxRwNbE">
+  <span>See the Pen <a href="https://codepen.io/ronny25089/pen/xxRwNbE">
+  xxRwNbE</a> by memo (<a href="https://codepen.io/ronny25089">@ronny25089</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 HTML/CSS/JS 在线工具https://c.runoob.com/front-end/61  
 [>>>下一篇：HTML区块](../../lib/HTML/HTML区块.md)
